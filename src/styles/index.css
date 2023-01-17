@@ -18,9 +18,10 @@ html, body {
 }
 
 .headerinfo {
+    font-size: 2em;
     display: flex;
     flex-direction: column;
-    margin-right: 50px;
+    margin-right: 5vh;
 }
 
 .address {
@@ -32,10 +33,20 @@ html, body {
 }
 
 .img img {
-    width: 300px;
-    height: 200px;
+    width: 50vh;
+    height: 35vh;
 }
 
 .info {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    color: white;
+    align-items: center;
     height: 100vh;
+    text-align: center;
+}
+.info p {
+    padding-left: 5vh;
+    padding-right: 5vh;
 }

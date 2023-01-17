@@ -4,7 +4,7 @@
     <div class="headerinfo">
       <h1>Ватеркрафт</h1>
       <h2>Здесь происходят пранки</h2>
-      <Address/>
+      <Address :text="address"/>
     </div>
     <div class="img">
       <img src="../assets/watergrad.png" />
@@ -16,6 +16,11 @@
 import Address from './Address.vue';
 
 export default {
+  data() {
+    return {
+      address: "81.176.176.58:25565"
+    }
+  },
   components: {
     Address
   }
