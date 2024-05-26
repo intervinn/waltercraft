@@ -1,8 +1,9 @@
 import type { Metadata } from "next";
-import { Nunito } from "next/font/google";
+import { Nunito, JetBrains_Mono } from "next/font/google";
 import "./globals.css";
 
-const inter = Nunito({ subsets: ["latin"] });
+export const nunito = Nunito({ subsets: ["latin"] });
+export const jbmono = JetBrains_Mono({subsets: ["latin"]})
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -16,7 +17,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${inter.className}`}>
+      <body className={`${nunito.className}`}>
         {children}
       </body>
     </html>

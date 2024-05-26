@@ -7,21 +7,24 @@ export default function Home() {
   return (
     <div className="bg-bg min-h-screen w-screen flex flex-col text-white">
       <Navbar/>
-      <div className="flex flex-row mt-12 bg-fg">
+      <div className="flex flex-row mt-12 justify-center">
         <div className="flex flex-col gap-2">
           <h1 className=" text-5xl font-black ml-40">WalterCraft</h1>
-          <p className="text-2xl w-80 ml-40">
+          <p className="text-xl w-80 ml-40">
           Не всем по душе крупные сервера. 
           Некоторые ищут небольшое локальное сообщество, 
           где можно реализовать свои идеи в полной мере.
           Одним из таких является WalterCraft.
           </p>
-        </div>
       </div>
 
-      <div className="flex flex-row mt-12 bg-fg justify-between">
+      <img src="" />
 
-        <div className="flex bg-[#242836] flex-col text-white ml-40 w-fit px-5 rounded-2xl">
+      </div>
+
+      <div className="flex flex-row mt-12 justify-center gap-12">
+
+        <div className="flex bg-[#242836] flex-col text-white ml-40 w-fit px-5 rounded-2xl shadow-inner h-fit">
           <ListItem
             index="1"
             content="2022-2022"
@@ -47,7 +50,7 @@ export default function Home() {
 
         <div className="flex flex-col">
           <h1 className="text-5xl font-black mr-40">Сезоны</h1>
-          <p className="text-2xl w-80 mr-40">
+          <p className="text-xl w-80 mr-40">
           Наш сервер существует как минимум с 2022 года, 
           был создан игроками энтузиастами с целью возродить активность 
           и улучшить концепцию любимого сервера. 
