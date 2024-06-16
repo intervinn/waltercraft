@@ -16,9 +16,15 @@ export default function Home() {
           где можно реализовать свои идеи в полной мере.
           Одним из таких является WalterCraft.
           </p>
-      </div>
+        </div>
 
-      <img src="" />
+      <div className="bg-line w-full relative h-fit flex flex-row">
+        <img src="kotler.png" className="aspect-auto h-52"/>
+        <img src="window.png" className="aspect-auto h-52"/>
+        <img src="stair.png" className="aspect-auto h-52"/>
+        <img src="sakuras.png" className="aspect-auto h-52 "/>
+        <img src="pizza.png" className="aspect-auto h-52"/>
+      </div>
 
       </div>
 
@@ -55,6 +61,18 @@ export default function Home() {
           был создан игроками энтузиастами с целью возродить активность 
           и улучшить концепцию любимого сервера. 
           Сезоны не начинаются по любому поводу, а ознаменовываются нововведениями.
+          </p>
+        </div>
+      </div>
+
+      <div className="flex flex-row mt-12 justify-center gap-12">
+        <div className="flex flex-col gap-2">
+          <h1 className=" text-5xl font-black ml-40">Проход</h1>
+          <p className="text-xl w-80 ml-40">
+          На данный момент зайти на сервер можно бесплатно. 
+          Добавление в вайтлист происходит вручную. <br/> <br/>
+
+          Подробнее на нашем <a href="https://discord.gg/gqrUH3hFhf">Discord-сервере</a>.
           </p>
         </div>
       </div>
