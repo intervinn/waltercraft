@@ -2,7 +2,8 @@
     import {footerEN, footerRU} from "$lib/constants"
 </script>
 
-<div class="w-full bg-fg border-t-2 border-line flex flex-row h-fit">
+<div class="w-full bg-fg border-t-2 border-line flex flex-row h-fit relative">
+    <img src="gaming.png" alt="tushmar" class="absolute right-0" />
     <div class="flex flex-col lg:ml-32 items-start">
         <div class="flex flex-col lg:flex-row lg:items-center mt-5">
             <div class="flex flex-row items-center">

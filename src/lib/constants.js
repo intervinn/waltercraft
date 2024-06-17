@@ -43,5 +43,5 @@ WalterCraft and related projects are not affiliated with Mojang Studios or Micro
 `
 
 export const entranceHeading = `
-На данный момент зайти на сервер можно бесплатно. Добавление в вайтлист происходит вручную
+На данный момент зайти на сервер можно бесплатно. Добавление в вайтлист происходит вручную.
 `
