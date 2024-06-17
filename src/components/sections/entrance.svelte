@@ -8,7 +8,7 @@
         {entranceHeading} <br/> <br/>
 
         Подробнее на нашем <span class="text-[#7E8CD3]">
-            <a href="s">Discord-сервере.</a>
+            <a href="https://discord.gg/gqrUH3hFhf">Discord-сервере.</a>
         </span>
     </p>
 </div>
