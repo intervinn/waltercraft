@@ -6,10 +6,8 @@
     import Seasons from "../components/sections/seasons.svelte";
 </script>
 
-<div class="bg-bg text-white min-h-screen w-screen flex flex-col">
-    <Navbar/>
+<div>
     <Header/>
     <Seasons/>
     <Entrance/>
-    <Footer/>
 </div>

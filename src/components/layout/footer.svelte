@@ -26,5 +26,5 @@
             {footerEN}
         </p>
     </div>
-    <img src="gaming.png" alt="tushmar" class="" />
+    <img src="gaming.png" alt="tushmar" class="hidden lg:block" />
 </div>
