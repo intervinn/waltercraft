@@ -9,7 +9,17 @@
     {#key season}
         <div in:fade={{duration:500}} class="w-full flex flex-col items-center justify-center lg:flex-row">
             <div class="flex flex-col text-left mx-6">
-                <h1 class="font-extrabold text-3xl">{season.name}</h1>
+                <div class="flex flex-row">
+                    <h1 class="font-extrabold text-3xl">{season.name}</h1>
+                    <div class="flex flex-row items-center">
+                        {#each season.tags as tag}
+                            <div class="bg-sd px-3 py-1 rounded-xl bg-gradient-to-tr from-[#50488C]
+                             font-bold text-white ml-3">
+                                {tag}
+                            </div>
+                        {/each}
+                    </div>
+                </div>
                 <hr class="w-64">
                 <p class="mt-5 w-96 text-lg">{season.description}</p>
             </div>
@@ -23,7 +33,9 @@
         <button on:click={() => {
             season = s
             document.getElementById("season").scrollIntoView({behavior: "smooth", block: "center"})
-        }} class="bg-sd text-3xl px-10 py-5 mx-4 rounded-2xl my-2">
+            console.log(s.style)
+        }} class={`bg-sd text-3xl px-10 py-5 mx-4 rounded-2xl my-2 ${s.style}`}>
+            
             {s.name}
         </button>
         {/each}
