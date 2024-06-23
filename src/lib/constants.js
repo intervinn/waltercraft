@@ -33,7 +33,7 @@ export const seasons = [
         Надеемся, этот сезон станет лучшим, а также познакомит с нашим проектом больше людей.
         `,
         image: "s4.png",
-        style: "bg-gradient-to-tr from-[50488C]"
+        style: "bg-gradient-to-tr from-[#50488C]"
     }
 ]
 
