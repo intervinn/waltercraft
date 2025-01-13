@@ -1,8 +1,8 @@
 <script>
     import { fade } from "svelte/transition";
 
-    export let seasons = []
-    let season = seasons[0]
+    let { seasons } = $props()
+    let season = $state(seasons[0])
 </script>
 
 <div class="flex flex-col items-center lg:mx-auto lg:w-[85vw] mt-10">
@@ -30,10 +30,9 @@
 
     <div class="flex flex-col lg:flex-row mt-5 overflow-x-scroll">
         {#each seasons as s}
-        <button on:click={() => {
+        <button onclick={() => {
             season = s
             document.getElementById("season").scrollIntoView({behavior: "smooth", block: "center"})
-            console.log(s.style)
         }} class={`bg-sd text-3xl px-10 py-5 mx-4 rounded-2xl my-2 ${s.style}`}>
             
             {s.name}
