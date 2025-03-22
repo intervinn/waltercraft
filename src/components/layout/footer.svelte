@@ -7,7 +7,7 @@
     <div class="flex flex-col lg:ml-32 items-start">
         <div class="flex flex-col lg:flex-row lg:items-center mt-5">
             <div class="flex flex-row items-center">
-                <img src="logo.png" alt="WalterCraft" class="aspect-square w-12 lg:w-24 border-solid border-2 border-white rounded-2xl"/>
+                <img src="assets/logo.png" alt="WalterCraft" class="aspect-square w-12 lg:w-24 border-solid border-2 border-white rounded-2xl"/>
                 <span class="text-2xl lg:text-3xl h-fit font-bold text-white ml-2">WalterCraft</span>
             </div>
             <div class="flex flex-row mt-2">
@@ -26,5 +26,5 @@
             {footerEN}
         </p>
     </div>
-    <img src="gaming.png" alt="tushmar" class="hidden lg:block" />
+    <img src="assets/gaming.png" alt="tushmar" class="hidden lg:block" />
 </div>
